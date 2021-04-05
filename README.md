@@ -26,7 +26,7 @@ Por fim, como queremos estimar a probabilidade de default no dia 90 do contrato,
 
 ## Resultados
 
-Obtivemos excelentes resultados para estimar a probabilidade de que o cliente não quite sua dívida. O desvio padrão do pagamento esperado em alguns intervalos de tempo não teve importância no modelo e foi retirado para diminuir a complexidade e que o modelo degrade ao longo do tempo. Já a porcentagem de dias sem transação entre o dia 30 e o dia 90 do contrato, e a porcentagem de pagamento do empréstimo até o dia 90 do contrato foram variáveis que tiveram bastante importância para a classificação.
+Obtivemos excelentes resultados para estimar a probabilidade de que o cliente não quite sua dívida. O desvio padrão do pagamento esperado em alguns intervalos de tempo não teve importância no modelo e foi retirado para diminuir a complexidade e que o modelo não degrade ao longo do tempo. Já a porcentagem de dias sem transação entre o dia 30 e o dia 90 do contrato, e a porcentagem de pagamento do empréstimo até o dia 90 do contrato foram variáveis que tiveram bastante importância para a classificação.
 
 
 ## Autor
