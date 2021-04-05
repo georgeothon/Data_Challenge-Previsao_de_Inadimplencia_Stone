@@ -1,7 +1,7 @@
 # Case Data Science - Previsão de probabilidade de default (PD)
 
 O Data Challenge é um desafio baseado em dados elaborado pelo time de dados da Stone.
-Este repositório contém o notebook e os arquivos referentes ao level 3 - O case, para o desafio de ciência de dados - Previsão de inadimplencia (Previsão de default).
+Este repositório contém o [notebook](https://github.com/georgeothon/Data_Challenge-Previsao_de_Inadimplencia_Stone/blob/main/Data_Challenge_Stone.ipynb) e os arquivos referentes ao level 3 - O case, para o desafio de ciência de dados - Previsão de inadimplencia (Previsão de default).
 
 ## Descrição do problema
 
