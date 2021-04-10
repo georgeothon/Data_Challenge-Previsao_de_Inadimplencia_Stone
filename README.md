@@ -20,13 +20,13 @@ Para uma abordagem por meio de métodos estatísticos e de machine learning, foi
 - Porcentam de dias de contrato sem pagamento.
 - Entre outras...
 
-Além disso, foram criadas variávies por intervalo de tempo dentro dos 90 dias, como variáveis agregadas para os primeiros 30 dias, para o intervalo entre o dia 30 e o dia 60 de contrato, além de alguns outros intervalos de tempo para as variáveis citadas de agregação criadas.
+Além disso, foram criadas variávies por intervalo de tempo dentro dos 90 dias, como variáveis agregadas para os primeiros 30 dias, para o intervalo entre o dia 30 e o dia 60 de contrato, além de alguns outros intervalos de tempo para as variáveis citadas acima.
 
 Por fim, como queremos estimar a probabilidade de default no dia 90 do contrato, para nossa análise, foi utilizada apenas dados com informação de no máximo 90 dias após o desembolso do crédito.
 
 ## Resultados
 
-Obtivemos excelentes resultados para estimar a probabilidade de que o cliente não quite sua dívida. O desvio padrão do pagamento esperado em alguns intervalos de tempo não teve importância no modelo e foi retirado para diminuir a complexidade e que o modelo não degrade ao longo do tempo. Já a porcentagem de dias sem transação entre o dia 30 e o dia 90 do contrato, e a porcentagem de pagamento do empréstimo até o dia 90 do contrato foram variáveis que tiveram bastante importância para a classificação.
+Obtivemos excelentes resultados para estimar a probabilidade de que o cliente não quite sua dívida. O desvio padrão do pagamento esperado em alguns intervalos de tempo não teve importância no modelo e foi retirado para diminuir o custo computacional e para que o modelo degrade menos ao longo do tempo. Já a porcentagem de dias sem transação entre o dia 30 e o dia 90 do contrato, e a porcentagem de pagamento do empréstimo até o dia 90 do contrato foram variáveis que tiveram bastante importância para a classificação.
 
 O modelo foi retreinado em todos os dados de teste recebidos para prever a probabilida de default nos dados de teste recebidos para avaliação, e os resultados serão atualizados assim que obtidos.
 
